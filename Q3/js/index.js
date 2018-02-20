@@ -23,7 +23,7 @@ function createToDo() {
 
   var removeButton = document.createElement("button");
   removeButton.onclick = function() {
-    if (window.confirm("確定已經完成了嗎？")){
+    if (window.confirm("是否確定完成？")){
     this.parentNode.parentNode.removeChild(this.parentNode);
     }
   }
